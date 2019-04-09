@@ -1,0 +1,5 @@
+PING ff02::2(ff02::2) from fe80::468a:5bff:fee8:9d85 eth0: 56 data bytes
+
+--- ff02::2 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4032ms
+
