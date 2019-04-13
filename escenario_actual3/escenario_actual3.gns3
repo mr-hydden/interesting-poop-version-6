@@ -636,7 +636,7 @@
                     "kernel_image_md5sum": null,
                     "legacy_networking": false,
                     "linked_clone": true,
-                    "mac_address": "0c:ef:93:bb:69:00",
+                    "mac_address": "0c:ef:93:33:d2:00",
                     "options": "-nographic",
                     "platform": "x86_64",
                     "process_priority": "normal",
