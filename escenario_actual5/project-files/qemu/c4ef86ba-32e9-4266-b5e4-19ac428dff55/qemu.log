@@ -1,0 +1,3 @@
+Start QEMU with 'C:\Program Files\GNS3\qemu-2.4.0\qemu-system-x86_64w.exe' -name Debian-1 -m 256M -smp cpus=1 -boot order=c -drive 'file=C:\Users\Luis\Documents\GitHub\interesting-poop-version-6\escenario_actual5\project-files\qemu\c4ef86ba-32e9-4266-b5e4-19ac428dff55\hda_disk.qcow2,if=ide,index=0,media=disk' -uuid c4ef86ba-32e9-4266-b5e4-19ac428dff55 -serial telnet:127.0.0.1:5001,server,nowait -monitor tcp:127.0.0.1:54122,server,nowait -net none -device e1000,mac=0c:3d:fd:ff:55:00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10027,localaddr=127.0.0.1:10026 -nographic
+
+Execution log:
