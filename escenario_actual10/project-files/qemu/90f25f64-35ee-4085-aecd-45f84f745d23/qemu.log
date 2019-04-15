@@ -1,0 +1,4 @@
+Start QEMU with /usr/bin/qemu-system-x86_64 -name Debian-2 -m 256M -smp cpus=1 -enable-kvm -machine smm=off -boot order=c -drive file=/home/mrhydden/AA_usal/infor/courses/3/projects/interesting-poop-version-6/escenario_actual10/project-files/qemu/90f25f64-35ee-4085-aecd-45f84f745d23/hda_disk.qcow2,if=ide,index=0,media=disk -uuid 90f25f64-35ee-4085-aecd-45f84f745d23 -serial telnet:127.0.0.1:5002,server,nowait -monitor tcp:127.0.0.1:44443,server,nowait -net none -device e1000,mac=0c:58:72:5d:23:00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10033,localaddr=127.0.0.1:10032 -nographic
+
+Execution log:
+qemu-system-x86_64: terminating on signal 15 from pid 18522 (/usr/share/gns3/gns3-server/bin/python)
