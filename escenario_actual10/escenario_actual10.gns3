@@ -572,7 +572,7 @@
                     "options": "-nographic",
                     "platform": "x86_64",
                     "process_priority": "normal",
-                    "qemu_path": "/usr/bin/qemu-system-x86_64",
+                    "qemu_path": "C:\\Program Files\\GNS3\\qemu-2.4.0\\qemu-system-x86_64w.exe",
                     "ram": 256,
                     "usage": ""
                 },
@@ -634,7 +634,7 @@
                     "options": "-nographic",
                     "platform": "x86_64",
                     "process_priority": "normal",
-                    "qemu_path": "/usr/bin/qemu-system-x86_64",
+                    "qemu_path": "C:\\Program Files\\GNS3\\qemu-2.4.0\\qemu-system-x86_64w.exe",
                     "ram": 256,
                     "usage": ""
                 },
@@ -696,7 +696,7 @@
                     "options": "-nographic",
                     "platform": "x86_64",
                     "process_priority": "normal",
-                    "qemu_path": "/usr/bin/qemu-system-x86_64",
+                    "qemu_path": "C:\\Program Files\\GNS3\\qemu-2.4.0\\qemu-system-x86_64w.exe",
                     "ram": 256,
                     "usage": ""
                 },
@@ -886,7 +886,7 @@
                     "options": "-nographic",
                     "platform": "x86_64",
                     "process_priority": "normal",
-                    "qemu_path": "/usr/bin/qemu-system-x86_64",
+                    "qemu_path": "C:\\Program Files\\GNS3\\qemu-2.4.0\\qemu-system-x86_64w.exe",
                     "ram": 256,
                     "usage": ""
                 },
