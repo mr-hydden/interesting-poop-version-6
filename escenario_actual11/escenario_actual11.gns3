@@ -75,7 +75,7 @@
             {
                 "drawing_id": "8bc052f8-fcc4-46da-b44c-bd338d291330",
                 "rotation": 0,
-                "svg": "<svg height=\"24\" width=\"57\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">atm1/0</text></svg>",
+                "svg": "<svg height=\"24\" width=\"37\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">f1/0</text></svg>",
                 "x": -573,
                 "y": 132,
                 "z": 1
@@ -195,8 +195,8 @@
             {
                 "drawing_id": "1c098c13-ca29-45f5-9ad8-7c17fa5de421",
                 "rotation": 0,
-                "svg": "<svg height=\"24\" width=\"57\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">atm1/0</text></svg>",
-                "x": -545,
+                "svg": "<svg height=\"24\" width=\"37\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">f1/0</text></svg>",
+                "x": -548,
                 "y": -33,
                 "z": 1
             },
@@ -336,37 +336,6 @@
             },
             {
                 "filters": {},
-                "link_id": "e7323ba9-0746-4a8d-b8b4-af39040306b9",
-                "nodes": [
-                    {
-                        "adapter_number": 1,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "a1/0",
-                            "x": 33,
-                            "y": 22
-                        },
-                        "node_id": "0911e55a-a9a1-4ec9-9c72-286fb01cef1e",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 1,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "a1/0",
-                            "x": 33,
-                            "y": 22
-                        },
-                        "node_id": "8cf9e3c8-27b6-4ae8-8866-3d50dbaa1c42",
-                        "port_number": 0
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
                 "link_id": "65e93816-01ba-4bee-a7ae-f7c254b02795",
                 "nodes": [
                     {
@@ -453,6 +422,37 @@
                             "y": 36
                         },
                         "node_id": "73f78024-db82-46a4-8892-9bf381089ef1",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "275be796-1ecf-4c65-83d2-2f6a2466fd5c",
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": 26,
+                            "y": 61
+                        },
+                        "node_id": "0911e55a-a9a1-4ec9-9c72-286fb01cef1e",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": 39,
+                            "y": -17
+                        },
+                        "node_id": "8cf9e3c8-27b6-4ae8-8866-3d50dbaa1c42",
                         "port_number": 0
                     }
                 ],
@@ -755,7 +755,7 @@
                         22
                     ],
                     "slot0": "C7200-IO-FE",
-                    "slot1": "PA-A1",
+                    "slot1": "PA-FE-TX",
                     "slot2": null,
                     "slot3": null,
                     "slot4": null,
@@ -819,7 +819,7 @@
                         22
                     ],
                     "slot0": "C7200-IO-FE",
-                    "slot1": "PA-A1",
+                    "slot1": "PA-FE-TX",
                     "slot2": "PA-FE-TX",
                     "slot3": null,
                     "slot4": null,
