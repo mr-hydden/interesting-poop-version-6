@@ -1,0 +1,14 @@
+Apr 16 08:30:37.269 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 16 08:30:37.270 HYPERVISOR: Started on IP = 192.168.1.36, TCP port = 50770.
+Apr 16 08:30:37.438 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 16 08:30:37.439 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Luis\Documents\GitHub\interesting-poop-version-6\escenario_IPv6\project-files\dynamips 
+Apr 16 08:30:37.596 GENERAL: working_dir=C:\Users\Luis\Documents\GitHub\interesting-poop-version-6\escenario_IPv6\project-files\dynamips
+Apr 16 08:30:37.598 HYPERVISOR: exec_cmd: nio_bridge create HUB2 
+Apr 16 08:30:40.153 HYPERVISOR: exec_cmd: nio create_udp udp-fe72d72b-a117-4f38-a18f-34d5e33f41f6 10006 192.168.1.36 10007 
+Apr 16 08:30:40.154 HYPERVISOR: exec_cmd: nio_bridge add_nio HUB2 udp-fe72d72b-a117-4f38-a18f-34d5e33f41f6 
+Apr 16 08:30:40.525 HYPERVISOR: exec_cmd: nio create_udp udp-13b06f84-b690-4340-b9ea-4c897de73bb0 10014 192.168.1.36 10015 
+Apr 16 08:30:40.526 HYPERVISOR: exec_cmd: nio_bridge add_nio HUB2 udp-13b06f84-b690-4340-b9ea-4c897de73bb0 
+Apr 16 08:30:45.318 HYPERVISOR: exec_cmd: nio_bridge delete HUB2 
+Apr 16 08:30:45.351 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 16 08:30:45.444 HYPERVISOR: Stopped.
+Apr 16 08:30:45.444 GENERAL: reset done.

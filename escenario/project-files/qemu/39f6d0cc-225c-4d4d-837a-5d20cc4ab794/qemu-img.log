@@ -1,1 +1,0 @@
-Formatting 'C:\Users\Luis\Documents\GitHub\interesting-poop-version-6\escenario\project-files\qemu\39f6d0cc-225c-4d4d-837a-5d20cc4ab794\hda_disk.qcow2', fmt=qcow2 size=4294967296 backing_file='C:/Users/Luis/GNS3/images/QEMU/debianAlumno.qcow2' encryption=off cluster_size=65536 lazy_refcounts=off refcount_bits=16
